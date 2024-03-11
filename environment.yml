@@ -10,3 +10,7 @@ dependencies:
     - scikit-learn=1.1.3
     - nltk=3.7
     - kneed=0.7.0
+    - matplotlib
+    - parsel==1.7.0
+    - pyopenssl=22.0.0
+    - cryptography==38.0.4
