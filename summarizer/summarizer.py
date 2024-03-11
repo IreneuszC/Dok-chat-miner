@@ -61,8 +61,9 @@ class Summarizer:
         stuff_chain = StuffDocumentsChain(
             llm_chain=llm_chain, document_variable_name="docs"
         )
+        docs = self.split_text(text)
 
-        return stuff_chain.run(text)
+        return stuff_chain.run(docs)
 
     def get_num_tokens(self, text: str) -> int:
         return self.llm.get_num_tokens(text)

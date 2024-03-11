@@ -1,33 +1,62 @@
 import os
-import fitz  # PyMuPDF
+import sys
+
+# For some reason __init__.py is not working
+# TODO
+# Fix absolute paths import within modules
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
+from utils.paths import get_documents_path
 
 
 class DocumentsReader:
-    full_directory = "documents/full"
-    summarized_directory = "documents/summarized"
+    documents_directory = ""
 
     def __init__(self) -> None:
-        pass
+        self.documents_directory = get_documents_path()
 
-    def get_lowercase_filenames(self, directory) -> list[str]:
-        return [os.path.splitext(file.lower())[0] for file in os.listdir(directory)]
+    def get_files_to_process(self) -> list[dict]:
+        result = []
+        path = self.documents_directory
 
-    def read_pdf(self, file_path) -> str:
-        doc = fitz.open(file_path)
-        text = ""
-        for page_num in range(doc.page_count):
-            page = doc[page_num]
-            text += page.get_text()  # type: ignore
-        doc.close()
-        return text
+        for root, dirs, files in os.walk(path):
+            folder_name = os.path.relpath(root, path)
 
-    def get_files_to_process(self) -> set[str]:
-        full_files = set(self.get_lowercase_filenames(self.full_directory))
-        summarized_files = set(self.get_lowercase_filenames(self.summarized_directory))
+            if folder_name == ".":
+                continue
 
-        return full_files - summarized_files
+            files_without_summary = [
+                f
+                for f in files
+                if f.endswith(".txt") and not f.endswith("_summary.txt")
+            ]
 
-    def get_file_content(self, filename: str) -> str:
-        file_path = os.path.join(self.full_directory, filename + ".pdf")
+            if files_without_summary:
+                result.append({"name": folder_name, "files": files_without_summary})
 
-        return self.read_pdf(file_path)
+        return result
+
+    def get_file_content(self, group_name: str, file_name: str) -> str:
+        file_path = os.path.join(self.documents_directory, group_name, file_name)
+
+        try:
+            # ignore errors as some files has unknown not UTF-8 characters
+            with open(file_path, "r", errors="ignore") as file:
+                content = file.read()
+            return content
+        except FileNotFoundError:
+            print(f"File '{file_path}' not found.")
+            return ""
+        except Exception as e:
+            print(f"Error reading file '{file_path}': {e}")
+            return ""
+
+    def get_summary_files(self, group_name: str) -> list[str]:
+        path = os.path.join(self.documents_directory, group_name)
+
+        summary_files = []
+        for root, dirs, files in os.walk(path):
+            for file in files:
+                if file.endswith("_summary.txt"):
+                    summary_files.append(os.path.join(root, file))
+        return summary_files
