@@ -1,0 +1,6 @@
+kmeans,3,0.03423602311769723
+kmeans,3,0.037534043601561054
+SilhouetteResults/ward,2,0.04106834027865578
+SilhouetteResults/complete,2,0.1067482445738264
+SilhouetteResults/average,2,0.1067482445738264
+SilhouetteResults/single,2,0.06839493460540115

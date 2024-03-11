@@ -1,0 +1,998 @@
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,Successful exploitation of this vulnerability could allow an attacker to execute commands with root privileges.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,For additional details see the [Mitsubishi Electric advisory 2023-018].(
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,CISA also recommends users take the following measures to protect themselves from social engineering attacks:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,Mitsubishi Electric recommends that users take the following mitigation measures to minimize the risk of exploiting these vulnerabilities:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,Mitsubishi Electric recommends that users update their products to the following versions:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,Mitsubishi Electric reported these vulnerabilities to CISA.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,Successful exploitation of these vulnerabilities could disclose information in the product or could cause denial-of-service (DoS) condition.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,The affected products contain an observable timing discrepancy vulnerability in their RSA decryption implementation. By sending specially crafted packets and performing a Bleichenbacher style attack an attack method to decrypt ciphertext by observing the behavior when a padding error occurs an attacker could decrypt the ciphertext and disclose sensitive information.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,has been assigned to this vulnerability. A CVSS v3.1 base score of 5.9 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,The following Factory Automation products are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,has been assigned to this vulnerability. A CVSS v3.1 base score of 7.5 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,The affected products contain a type confusion vulnerability relating to X.400 address
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,processing inside an X.509 GeneralName. An attacker could disclose sensitive information in memory of the product or cause denial-of-service (DoS) on the product by getting to load a specially crafted certificate revocation list (CRL).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,has been assigned to this vulnerability. A CVSS v3.1 base score of 7.4 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,The affected products contain a double free vulnerability when reading a PEM file. An attacker could cause denial-of-service (DoS) on the product by leading a legitimate user to importing a malicious certificate.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-004-02,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,By appending path traversal characters to the filename when using a specific command an attacker can read arbitrary files from the system.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,Rapid Software did not respond to CISA's attempts at coordination. Users of Rapid SCADA are encouraged to contact Rapid Software and keep their systems up to date.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,Successful exploitation of these vulnerabilities could result in an attacker reading sensitive files from the Rapid Scada server writing files to the Rapid Scada directory (thus achieving code execution) gaining access to sensitive systems via legitimate-seeming phishing attacks connecting to the server and perfoming attacks using the high privileges of a service obtaining administrator passwords learning sensitive information about the internal code of the application or achieving remote code execution.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,The following versions of Rapid SCADA an open-source industrial automation platform are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,By utilizing a Zip Slip vulnerability in the unpacking routine an attacker can supply a malicious configuration file to achieve remote code execution.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,has been assigned to this vulnerability. A CVSS v3 base score of 8.8 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,has been assigned to this vulnerability. A CVSS v3 base score of 6.5 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,Due to improper permissions configuration any authenticated user on the server may write directly to the Scada directory. This may allow privilege escalation.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,has been assigned to this vulnerability. A CVSS v3 base score of 7.8 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,The affected product may allow open redirects through the login page. This may redirect users to malicious webpages.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,has been assigned to this vulnerability. A CVSS v3 base score of 5.4 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,The affected product uses hard-coded credentials which may allow an attacker to connect to a specific port.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,has been assigned to this vulnerability. A CVSS v3 base score of 9.8 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,The affected product stores plaintext credentials in various places. This may allow an attacker with local access to see them.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,has been assigned to this vulnerability. A CVSS v3 base score of 6.2 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,The affected product responds back with an error message containing sensitive data if it receives a specific malformed request.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,has been assigned to this vulnerability. A CVSS v3 base score of 5.3
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,Noam Moshe of Claroty Research reported these vulnerabilities to CISA.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,CISA also recommends users take the following measures to protect themselves from social engineering attacks:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-03,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,CISA also recommends users take the following measures to protect themselves from social engineering attacks:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time. This vulnerability is not exploitable remotely.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,or the latest version of their software.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,Horner Automation recommends users to apply
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,Michael Heinzl reported this vulnerability to CISA.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,has been assigned to this vulnerability. A CVSS v3 base score of 7.8 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,In Horner Automation Cscape versions 9.90 SP10 and prior local attackers are able to exploit this vulnerability if a user opens a malicious CSP file which would result in execution of arbitrary code on affected installations of Cscape.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,The following Horner Automation products are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-04,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time. This vulnerability is not exploitable remotely.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,If customers choose not to apply the remediation provided above they should immediately apply Schneider Electric's General Security Recommendations to reduce the risk of exploit. For more information see Schneider Electric
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,if assistance is needed in removing a patch.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,Customers of Schneider Electric should use appropriate patching methodologies when applying these patches to their systems. Schneider Electric strongly recommend the use of back-ups and evaluating the impact of these patches in a Test and Development environment or on an offline infrastructure. Contact Schneider Electric's
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,Schneider Electric has released the following mitigations/fixes for the following products:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,Sina Kheirkhah (@SinSinology) of Summoning Team (@SummoningTeam) working with Trend Micro Zero Day Initiative reported this vulnerability to CISA.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,has been assigned to this vulnerability. A CVSS v3.1 base score of 7.8 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,A deserialization of untrusted data vulnerability exists in Schneider Electric Easergy Studio versions prior to v9.3.5 that could allow an attacker logged in with a user level account to gain higher privileges by providing a harmful serialized object.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,The following versions of Schneider Electric Easergy Studio a software solution for configuring monitoring and managing control devices are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,Successful exploitation of this vulnerability could allow an attacker to gain full control of a workstation.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-05,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,Successful exploitation of these vulnerabilities could allow an attacker to execute code in the context of the software's current process or crash the application causing a denial of service.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,The following Siemens products are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,The affected applications contain an out-of-bounds read past the end of an allocated structure while parsing specially crafted CGM files. This could allow an attacker to execute code in the context of the current process.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,has been assigned to this vulnerability. A CVSS v3.1 base score of 7.8 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,The affected applications contain a null pointer dereference vulnerability while parsing specially crafted CGM files. An attacker could leverage this vulnerability to crash the application causing denial of service condition.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,has been assigned to this vulnerability. A CVSS v3.1 base score of 3.3 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,The affected applications contain a stack overflow vulnerability while parsing specially crafted CGM files. This could allow an attacker to execute code in the context of the current process.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,has been assigned to this vulnerability. A CVSS v3.1 base score of 7.8 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,The affected applications contain a stack overflow vulnerability while parsing specially crafted CGM files. This could allow an attacker to execute code in the context of the current process.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,has been assigned to this vulnerability. A CVSS v3.1 base score of 7.8 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,Siemens reported this vulnerability to CISA.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,Siemens recommends users update software to mitigate risk from these vulnerabilities.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,Siemens also recommends that users avoid opening untrusted CGM files in JT2Go and Teamcenter Visualization.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,CISA also recommends users take the following measures to protect themselves from social engineering attacks:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,As of January 10 2023 CISA will no longer be updating ICS security advisories for Siemens product vulnerabilities beyond the initial advisory. For the most up-to-date information on vulnerabilities in this advisory please see
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-06,No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time. These vulnerabilities are not exploitable remotely.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,Siemens recommends users update to V23Q4 or a later version to mitigate risk from this vulnerability.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,Siemens reported this vulnerability to CISA.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,has been assigned to this vulnerability. A CVSS v3.1 base score of 7.8 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,Successful exploitation of this vulnerability could allow an authenticated local attacker to inject arbitrary code and gain root access.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,The following Siemens products are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,As of January 10 2023 CISA will no longer be updating ICS security advisories for Siemens product vulnerabilities beyond the initial advisory. For the most up-to-date information on vulnerabilities in this advisory please see
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,The affected product's sudo configuration permits the local administrative account to execute several entries as root user. This could allow an authenticated local attacker to inject arbitrary code and gain root access.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time. This vulnerability is not exploitable remotely.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-07,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,CP-8031 MASTER MODULE (6MF2803-1AA00):
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,and
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,For more information see the associated Siemens security advisory SSA-583634 in
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,Additional information on industrial security by Siemens can be found on the
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,and following recommendations in the product manuals.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,As a general security measure Siemens recommends protecting network access to devices with appropriate mechanisms. To operate the devices in a protected IT environment Siemens recommends configuring the environment according to
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,CP-8050 MASTER MODULE (6MF2805-0AA00):
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,Siemens has identified the following specific workarounds and mitigations users can apply to reduce risk:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,Siemens reported this vulnerability to CISA.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,has been assigned to this vulnerability. A CVSS v3 base score of 6.6 has been assigned; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,The network configuration service of affected devices contains a flaw in the conversion of ipv4 addresses that could lead to an uninitialized variable being used in succeeding validation steps. By uploading specially crafted network configuration an authenticated remote attacker could be able to inject commands that are executed on the device with root privileges during device startup.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,The following Siemens products are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,Successful exploitation of this vulnerability could allow an authenticated remote attacker to inject commands that are executed on the device with root privileges during device startup.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,As of January 10 2023 CISA will no longer be updating ICS security advisories for Siemens product vulnerabilities beyond the initial advisory. For the most up-to-date information on vulnerabilities in this advisory please see
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time. This vulnerability has a high attack complexity.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-08,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,has been assigned to this vulnerability. A CVSS v3 base score of 7.5 has been assigned; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,The affected application allows IP configuration change without authentication to the device. This could allow an attacker to cause denial of service condition.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,has been assigned to this vulnerability. A CVSS v3 base score of 8.8 has been assigned; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,"The intermediate installation"" system state of the affected application allows an attacker to add their own login credentials to the device. This allows an attacker to remotely login as root and take control of the device even after the affected device is fully set up."""
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,As of January 10 2023 CISA will no longer be updating ICS security advisories for Siemens product vulnerabilities beyond the initial advisory. For the most up-to-date information on vulnerabilities in this advisory please see
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,Successful exploitation of these vulnerabilities could allow an attacker to remotely login as root or cause denial of service condition of the device.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,The following products of Siemens are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,has been assigned to this vulnerability. A CVSS v3 base score of 9.8 has been assigned; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,Siemens reported these vulnerabilities to CISA.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,Siemens has identified the following specific workarounds and mitigations users can apply to reduce risk:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,As a general security measure Siemens recommends protecting network access to devices with appropriate mechanisms. To operate the devices in a protected IT environment Siemens recommends configuring the environment according to
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,and following recommendations in the product manuals.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,Additional information on industrial security by Siemens can be found on the
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,For more information see the associated Siemens security advisory SSA-777015 in
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,and
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,"The intermediate installation"" system state of the affected application uses default credential with admin privileges. An attacker could use the credentials to gain complete control of the affected device."""
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-09,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,and
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,For more information see the associated Siemens security advisory SSA-702935 in
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,As a general security measure Siemens recommends protecting network access to devices with appropriate mechanisms. To operate the devices in a protected IT environment Siemens recommends configuring the environment according to
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,and following recommendations in the product manuals.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,Siemens has identified the following specific workarounds and mitigations users can apply to reduce risk:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,Siemens reported this vulnerability to CISA.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,has been assigned to this vulnerability. A CVSS v3 base score of 10.0 has been assigned; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,In default installations of maxView Storage Manager where Redfish® server is configured for remote system management a vulnerability has been identified that can provide unauthorized access.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,The following Siemens products with maxView Storage Manager on Windows are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,Successful exploitation of this vulnerability could allow and attacker to obtain remote unauthorized access.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,As of January 10 2023 CISA will no longer be updating ICS security advisories for Siemens product vulnerabilities beyond the initial advisory. For the most up-to-date information on vulnerabilities in this advisory please see
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,Additional information on industrial security by Siemens can be found on the
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-10,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,and
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,has been assigned to this vulnerability. A CVSS v3 base score of 7.8 has been assigned; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,Siemens reported these vulnerabilities to CISA.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,Siemens has identified the following specific workarounds and mitigations users can apply to reduce risk:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,As a general security measure Siemens recommends protecting network access to devices with appropriate mechanisms. To operate the devices in a protected IT environment Siemens recommends configuring the environment according to
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,and following recommendations in the product manuals.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,Additional information on industrial security by Siemens can be found on the
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,The affected application is vulnerable to uninitialized pointer access while parsing specially crafted PAR files. An attacker could leverage this vulnerability to execute code in the context of the current process.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,CISA also recommends users take the following measures to protect themselves from social engineering attacks:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time. These vulnerabilities are not exploitable remotely.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,For more information see the associated Siemens security advisory SSA-589891 in
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,The affected application is vulnerable to uninitialized pointer access while parsing specially crafted PAR files. An attacker could leverage this vulnerability to execute code in the context of the current process.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,As of January 10 2023 CISA will no longer be updating ICS security advisories for Siemens product vulnerabilities beyond the initial advisory. For the most up-to-date information on vulnerabilities in this advisory please see
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,Successful exploitation of these vulnerabilities could allow an attacker to use specially crafted PAR files to execute code in the context of the current process.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,has been assigned to this vulnerability. A CVSS v3 base score of 7.8 has been assigned; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,The affected application is vulnerable to heap-based buffer overflow while parsing specially crafted PAR files. This could allow an attacker to execute code in the context of the current process.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,has been assigned to this vulnerability. A CVSS v3 base score of 7.8 has been assigned; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,The affected application is vulnerable to heap-based buffer overflow while parsing specially crafted PAR files. This could allow an attacker to execute code in the context of the current process.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,has been assigned to this vulnerability. A CVSS v3 base score of 7.8 has been assigned; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,The affected application is vulnerable to heap-based buffer overflow while parsing specially crafted PAR files. This could allow an attacker to execute code in the context of the current process.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,has been assigned to this vulnerability. A CVSS v3 base score of 7.8 has been assigned; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,The affected applications contain an out of bounds read past the end of an allocated structure while parsing specially crafted PAR files. This could allow an attacker to execute code in the context of the current process.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,has been assigned to this vulnerability. A CVSS v3 base score of 7.8 has been assigned; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,The following Siemens products are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,The affected applications contain an out of bounds read past the end of an allocated structure while parsing specially crafted PAR files. This could allow an attacker to execute code in the context of the current process.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,The affected application is vulnerable to uninitialized pointer access while parsing specially crafted PAR files. An attacker could leverage this vulnerability to execute code in the context of the current process.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,has been assigned to this vulnerability. A CVSS v3 base score of 7.8 has been assigned; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,The affected applications contain a stack overflow vulnerability while parsing specially crafted PAR files. This could allow an attacker to execute code in the context of the current process.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,has been assigned to this vulnerability. A CVSS v3 base score of 7.8 has been assigned; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,The affected application contains an out of bounds write past the end of an allocated buffer while parsing a specially crafted PAR file. This could allow an attacker to execute code in the context of the current process.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,has been assigned to this vulnerability. A CVSS v3 base score of 7.8 has been assigned; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,The affected applications contain an out of bounds read past the end of an allocated structure while parsing specially crafted PAR files. This could allow an attacker to execute code in the context of the current process.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,has been assigned to this vulnerability. A CVSS v3 base score of 7.8 has been assigned; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-011-11,has been assigned to this vulnerability. A CVSS v3 base score of 7.8 has been assigned; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,for additional information.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,SEW-EURODRIVE has not responded to requests to work with CISA to mitigate these vulnerabilities. Users of affected versions of MOVITOOLS MotionStudio are invited to contact
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,Esjay (@esj4y) working with Trend Micro Zero Day Initiative reported this vulnerability to CISA.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,When the affected product processes XML information unrestricted file access can occur.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,has been assigned to this vulnerability. A CVSS v3.1 base score of 5.5 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,The following versions of MOVITOOLS MotionStudio are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,Successful exploitation of this vulnerability could result in open access to file information.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time. This vulnerability is not exploitable remotely.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,The following versions of MOVITOOLS MotionStudio are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,When the affected product processes XML information unrestricted file access can occur.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,has been assigned to this vulnerability. A CVSS v3.1 base score of 5.5 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,Esjay (@esj4y) working with Trend Micro Zero Day Initiative reported this vulnerability to CISA.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,SEW-EURODRIVE has not responded to requests to work with CISA to mitigate these vulnerabilities. Users of affected versions of MOVITOOLS MotionStudio are invited to contact
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,for additional information.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,Successful exploitation of this vulnerability could result in open access to file information.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time. This vulnerability is not exploitable remotely.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-01,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,Integration Objects has not responded to requests to work with CISA to mitigate these vulnerabilities. Developers using affected versions of OPC UA Server Toolkit are invited to contact
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,Sam Hanson of Dragos reported this vulnerability to CISA.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,OPCUAServerToolkit will write a log message once an OPC UA client has successfully connected containing the client's self-defined description field.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,The following versions of OPC UA Server Toolkit OPC library designed to allow creation of OPC DA DX and HDA servers software are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,Successful exploitation of this vulnerability could allow a remote attacker to add content to the log file.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,has been assigned to this vulnerability. A CVSS v3.1 base score of 5.3 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,OPCUAServerToolkit will write a log message once an OPC UA client has successfully connected containing the client's self-defined description field.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,The following versions of OPC UA Server Toolkit OPC library designed to allow creation of OPC DA DX and HDA servers software are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,has been assigned to this vulnerability. A CVSS v3.1 base score of 5.3 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,Sam Hanson of Dragos reported this vulnerability to CISA.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,Integration Objects has not responded to requests to work with CISA to mitigate these vulnerabilities. Developers using affected versions of OPC UA Server Toolkit are invited to contact
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,Successful exploitation of this vulnerability could allow a remote attacker to add content to the log file.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-016-02,No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,AVEVA recommends that organizations evaluate the impact of these vulnerabilities based on their operational environment architecture and product implementation. Users with the affected products should apply security updates as soon as possible.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,"search for PI Server"" and select version ""2018 SP3 Patch 6""."""
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,For an alternative fix AVEVA PI Server 2018 SP3 Patch 5 and prior can be fixed by deploying AVEVA PI Server version 2018 SP3 Patch 6 or later. From
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,"search for PI Server"" and select version ""2023 Patch 1""."""
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,All affected versions can be fixed by upgrading to AVEVA PI Server version 2023 Patch 1 or later. From
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,AVEVA reported these vulnerabilities to CISA.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,has been assigned to this vulnerability. A CVSS v3 base score of 7.5 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,AVEVA PI Server versions 2023 and 2018 SP3 P05 and prior contain a vulnerability that could allow an unauthenticated user to cause the PI Message Subsystem of a PI Server to consume available memory resulting in throttled processing of new PI Data Archive events and a partial denial-of-service condition.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,AVEVA recommends the following defensive measures:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,AVEVA PI Server versions 2023 and 2018 SP3 P05 and prior contain a vulnerability that could allow an unauthenticated user to remotely crash the PI Message Subsystem of a PI Server resulting in a denial-of-service condition.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,The following versions of AVEVA PI Server are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,Successful exploitation of these vulnerabilities could allow an attacker to crash the product being accessed or throttle the memory leading to a partial denial-of-service condition.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,has been assigned to this vulnerability. A CVSS v3 base score of 5.3 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,For more information on this vulnerability including security updates users should see security bulletin
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,Successful exploitation of these vulnerabilities could allow an attacker to crash the product being accessed or throttle the memory leading to a partial denial-of-service condition.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,The following versions of AVEVA PI Server are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,AVEVA PI Server versions 2023 and 2018 SP3 P05 and prior contain a vulnerability that could allow an unauthenticated user to remotely crash the PI Message Subsystem of a PI Server resulting in a denial-of-service condition.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,has been assigned to this vulnerability. A CVSS v3 base score of 7.5 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,has been assigned to this vulnerability. A CVSS v3 base score of 5.3 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,AVEVA reported these vulnerabilities to CISA.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,All affected versions can be fixed by upgrading to AVEVA PI Server version 2023 Patch 1 or later. From
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,"search for PI Server"" and select version ""2023 Patch 1""."""
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,For an alternative fix AVEVA PI Server 2018 SP3 Patch 5 and prior can be fixed by deploying AVEVA PI Server version 2018 SP3 Patch 6 or later. From
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,"search for PI Server"" and select version ""2018 SP3 Patch 6""."""
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,AVEVA recommends that organizations evaluate the impact of these vulnerabilities based on their operational environment architecture and product implementation. Users with the affected products should apply security updates as soon as possible.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,AVEVA recommends the following defensive measures:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,For more information on this vulnerability including security updates users should see security bulletin
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,AVEVA PI Server versions 2023 and 2018 SP3 P05 and prior contain a vulnerability that could allow an unauthenticated user to cause the PI Message Subsystem of a PI Server to consume available memory resulting in throttled processing of new PI Data Archive events and a partial denial-of-service condition.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-018-01,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,CISA discovered public proof of concept as authored by Momen Eldawakhly (Cyber Guy) Samurai Digital Security Ltd.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,for additional information.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,Successful exploitation of this vulnerability could allow an attacker to access sensitive data and execute specific commands and functions with full admin rights without authenticating.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,APSystems has not responded to requests to work with CISA to mitigate this vulnerability. Users of the affected product are encouraged to contact
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,APsystems ENERGY COMMUNICATION UNIT (ECU-C) Power Control Software V4.1NA V3.11.4 W2.1NA V4.1SAA C1.2.2 allows attackers to access sensitive data and execute specific commands and functions with full admin rights.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,Successful exploitation of this vulnerability could allow an attacker to access sensitive data and execute specific commands and functions with full admin rights without authenticating.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,has been assigned to this vulnerability. A CVSS v3.1 base score of 8.8 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,APsystems ENERGY COMMUNICATION UNIT (ECU-C) Power Control Software V4.1NA V3.11.4 W2.1NA V4.1SAA C1.2.2 allows attackers to access sensitive data and execute specific commands and functions with full admin rights.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,has been assigned to this vulnerability. A CVSS v3.1 base score of 8.8 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,CISA discovered public proof of concept as authored by Momen Eldawakhly (Cyber Guy) Samurai Digital Security Ltd.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,APSystems has not responded to requests to work with CISA to mitigate this vulnerability. Users of the affected product are encouraged to contact
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,for additional information.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,The following APsystems products are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-01,The following APsystems products are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,Successful exploitation of this vulnerability could allow an attacker to escalate their privileges to root-level access.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,The following Crestron AirMedia Presentation System products are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,There is an OS command injection vulnerability in Crestron AM-300 firmware version 1.4499.00018 which may enable a user of a limited-access SSH session to escalate their privileges to root-level access.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,has been assigned to this vulnerability. A CVSS v3.1 base score of 8.4 has been calculated; the CVSS vector string is
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,or contact True Blue Support for additional information.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time. This vulnerability is not exploitable remotely.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,Uri Katz of Claroty Research Team82 reported this vulnerability to CISA.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,There is an OS command injection vulnerability in Crestron AM-300 firmware version 1.4499.00018 which may enable a user of a limited-access SSH session to escalate their privileges to root-level access.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,has been assigned to this vulnerability. A CVSS v3.1 base score of 8.4 has been calculated; the CVSS vector string is
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,Uri Katz of Claroty Research Team82 reported this vulnerability to CISA.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,Crestron has resolved this vulnerability in firmware version 1.4499.00023.001 or higher. Please see
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,or contact True Blue Support for additional information.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,The following Crestron AirMedia Presentation System products are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time. This vulnerability is not exploitable remotely.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,Successful exploitation of this vulnerability could allow an attacker to escalate their privileges to root-level access.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-02,Crestron has resolved this vulnerability in firmware version 1.4499.00023.001 or higher. Please see
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,Voltronic Power did not respond to CISA's attempts at coordination. Users of Voltronic Power products are encouraged to contact Voltronic Power and keep their systems up to date.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,Simon Janz (@esj4y) of Trend Micro's Zero Day Initiative reported these vulnerabilities to CISA.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,has been assigned to this vulnerability. A CVSS v3 base score of 9.8 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,The affected product allows an unauthenticated user to invoke a method that may modify the administrator account password.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,has been assigned to this vulnerability. A CVSS v3 base score of 9.8 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,The affected product is vulnerable to an OS command injection which may allow remote code execution on the underlying operating system.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,has been assigned to this vulnerability. A CVSS v3 base score of 7.5 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,has been assigned to this vulnerability. A CVSS v3 base score of 9.8 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,The affected product allows an unauthenticated user to invoke a method that may modify the administrator account password.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,has been assigned to this vulnerability. A CVSS v3 base score of 9.8 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,The affected product is vulnerable to an OS command injection which may allow remote code execution on the underlying operating system.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,Voltronic Power did not respond to CISA's attempts at coordination. Users of Voltronic Power products are encouraged to contact Voltronic Power and keep their systems up to date.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,When a specific service of the affected product receives a certain message from an unauthenticated user that process may stop.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,has been assigned to this vulnerability. A CVSS v3 base score of 9.8 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,Successful exploitation of these vulnerabilities could allow an attacker to create a denial-of-service condition obtain administrator credentials or achieve remote code execution.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,The following versions of ViewPower Pro an Uninterruptable Power Supply (UPS) management software are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,The affected product deserializes untrusted data without sufficiently verifying the resulting data will be valid.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,has been assigned to this vulnerability. A CVSS v3 base score of 9.8 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,Simon Janz (@esj4y) of Trend Micro's Zero Day Initiative reported these vulnerabilities to CISA.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,has been assigned to this vulnerability. A CVSS v3 base score of 7.5 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,Successful exploitation of these vulnerabilities could allow an attacker to create a denial-of-service condition obtain administrator credentials or achieve remote code execution.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,The following versions of ViewPower Pro an Uninterruptable Power Supply (UPS) management software are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,The affected product deserializes untrusted data without sufficiently verifying the resulting data will be valid.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-03,When a specific service of the affected product receives a certain message from an unauthenticated user that process may stop.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,An attacker with access to the network where the affected devices are located could maliciously actions to obtain via a sniffer sensitive information exchanged via TCP communications.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,has been assigned to this vulnerability. A CVSS v3.1 base score of 5.7 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,The cross-site request forgery token in the request may be predictable or easily guessable allowing attackers to craft a malicious request which could be triggered by a victim unknowingly. In a successful CSRF attack the attacker could lead the victim user to carry out an action unintentionally.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,has been assigned to this vulnerability. A CVSS v3.1 base score of 8.0 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,"An attacker with access to the web application with vulnerable software could introduce arbitrary JavaScript by injecting a cross-site scripting payload into the dns.0.server"" parameter."""
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,Aarón Flecha Menéndez Iván Alonso Álvarez and Víctor Bello Cuevas reported these vulnerabilities to CISA.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,Westermo recommends following best practices for hardening such as restricting access disable unused services (attack surface reduction) etc. to mitigate the reported vulnerabilities.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,has been assigned to this vulnerability. A CVSS v3.1 base score of 5.4 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,"An attacker with access to the vulnerable software could introduce arbitrary JavaScript by injecting a cross-site scripting payload into the username"" parameter in the SNMP configuration."""
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,Successful exploitation of these vulnerabilities could allow an attacker to access the web application inject arbitrary code execute malicious code obtain sensitive information or execute a malicious request.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,The following versions of Lynx 206-F2G a layer three industrial Ethernet switch are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,"An attacker with access to the web application that has the vulnerable software could introduce arbitrary JavaScript by injecting a cross-site scripting payload into the forward.0.domain"" parameter."""
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,has been assigned to this vulnerability. A CVSS v3.1 base score of 5.4 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,"An attacker with access to the web application that has the vulnerable software could introduce arbitrary JavaScript by injecting a cross-site scripting payload into the autorefresh"" parameter."""
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,has been assigned to this vulnerability. A CVSS v3.1 base score of 5.4 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,A potential attacker with access to the device would be able to execute malicious code that could affect the correct functioning of the device.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,A potential attacker with access to the device would be able to execute malicious code that could affect the correct functioning of the device.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,has been assigned to this vulnerability. A CVSS v3.1 base score of 6.5 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,has been assigned to this vulnera or craft a malicious request.bility. A CVSS v3.1 base score of 5.4 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,has been assigned to this vulnerability. A CVSS v3.1 base score of 8.0 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,has been assigned to this vulnerability. A CVSS v3.1 base score of 8.0 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,The cross-site request forgery token in the request may be predictable or easily guessable allowing attackers to craft a malicious request which could be triggered by a victim unknowingly. In a successful CSRF attack the attacker could lead the victim user to carry out an action unintentionally.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,has been assigned to this vulnerability. A CVSS v3.1 base score of 5.7 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,An attacker with access to the network where the affected devices are located could maliciously actions to obtain via a sniffer sensitive information exchanged via TCP communications.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,has been assigned to this vulnera or craft a malicious request.bility. A CVSS v3.1 base score of 5.4 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,"An attacker with access to the vulnerable software could introduce arbitrary JavaScript by injecting a cross-site scripting payload into the username"" parameter in the SNMP configuration."""
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,has been assigned to this vulnerability. A CVSS v3.1 base score of 6.5 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,A potential attacker with access to the device would be able to execute malicious code that could affect the correct functioning of the device.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,has been assigned to this vulnerability. A CVSS v3.1 base score of 8.0 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,A potential attacker with access to the device would be able to execute malicious code that could affect the correct functioning of the device.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,has been assigned to this vulnerability. A CVSS v3.1 base score of 5.4 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,"An attacker with access to the web application that has the vulnerable software could introduce arbitrary JavaScript by injecting a cross-site scripting payload into the autorefresh"" parameter."""
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,has been assigned to this vulnerability. A CVSS v3.1 base score of 5.4 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,"An attacker with access to the web application that has the vulnerable software could introduce arbitrary JavaScript by injecting a cross-site scripting payload into the forward.0.domain"" parameter."""
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,The following versions of Lynx 206-F2G a layer three industrial Ethernet switch are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,Successful exploitation of these vulnerabilities could allow an attacker to access the web application inject arbitrary code execute malicious code obtain sensitive information or execute a malicious request.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,"An attacker with access to the web application with vulnerable software could introduce arbitrary JavaScript by injecting a cross-site scripting payload into the dns.0.server"" parameter."""
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,has been assigned to this vulnerability. A CVSS v3.1 base score of 5.4 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,Aarón Flecha Menéndez Iván Alonso Álvarez and Víctor Bello Cuevas reported these vulnerabilities to CISA.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,CISA also recommends users take the following measures to protect themselves from social engineering attacks:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,CISA also recommends users take the following measures to protect themselves from social engineering attacks:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,Westermo recommends following best practices for hardening such as restricting access disable unused services (attack surface reduction) etc. to mitigate the reported vulnerabilities.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-04,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,Lantronix states that XPort is an old legacy product and is not designed for strong encryption or TLS/SSL encryption. Users who require stronger encryption are encouraged to upgrade to
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,Successful exploitation of this vulnerability could allow an attacker to obtain credentials.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,Lantronix states that XPort is an old legacy product and is not designed for strong encryption or TLS/SSL encryption. Users who require stronger encryption are encouraged to upgrade to
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,Aarón Flecha Menéndez of S21Sec reported this vulnerability to CISA.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,has been assigned to this vulnerability. A CVSS v3.1 base score of 5.7 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,Lantronix XPort sends weakly encoded credentials within web request headers.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,The following versions of XPort a device server configuration manager are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,Successful exploitation of this vulnerability could allow an attacker to obtain credentials.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,CISA also recommends users take the following measures to protect themselves from social engineering attacks:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,The following versions of XPort a device server configuration manager are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,Lantronix XPort sends weakly encoded credentials within web request headers.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,CISA also recommends users take the following measures to protect themselves from social engineering attacks:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,Aarón Flecha Menéndez of S21Sec reported this vulnerability to CISA.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,has been assigned to this vulnerability. A CVSS v3.1 base score of 5.7 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-023-05,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,has been assigned to this vulnerability. A CVSS v3 base score of 8.1 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,MachineSense FeverWarn Raspberry Pi-based devices lack input sanitization which could allow an attacker on an adjacent network to send a message running commands or could overflow the stack.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,has been assigned to this vulnerability. A CVSS v3 base score of 8.8 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,MachineSense FeverWarn devices are configured as Wi-Fi hosts in a way that attackers within range could connect to the device's web services and compromise the device.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,has been assigned to this vulnerability. A CVSS v3 base score of 7.5 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,MachineSense devices use unauthenticated MQTT messaging to monitor devices and remote viewing of sensor data by users.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,has been assigned to this vulnerability. A CVSS v3 base score of 10.0 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,The MachineSense application programmable interface (API) is improperly protected and can be accessed without authentication. A remote attacker could retrieve and modify sensitive information without any authentication.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,has been assigned to this vulnerability. A CVSS v3 base score of 9.1 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,Multiple MachineSense devices have credentials unable to be changed by the user or administrator.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,has been assigned to this vulnerability. A CVSS v3 base score of 7.7 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,The cloud provider MachineSense uses for integration and deployment for multiple MachineSense devices such as the programmable logic controller (PLC) PumpSense PowerAnalyzer FeverWarn and others is insufficiently protected against unauthorized access. An attacker with access to the internal procedures could view source code secret credentials and more.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,The following components of the FeverWarn ecosystem an IoT-based skin temperature scanning system are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,Vera Mens of Claroty Research reported these vulnerabilities to CISA.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,for additional information.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,CISA also recommends users take the following measures to protect themselves from social engineering attacks:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities. Specifically users should:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,FeverWarn and the associated cloud service were pandemic-specific products for elevated body temperature scanning discontinued by MachineSense prior to the end of the pandemic. They are no longer available and there will be no future availability or upgrades. MachineSense is not aware of any current users of FeverWarn. Users of the affected product are encouraged to
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,Successful exploitation of these vulnerabilities could allow an attacker to obtain user data from devices execute remote code on devices or gain control over devices to perform malicious actions.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,The MachineSense application programmable interface (API) is improperly protected and can be accessed without authentication. A remote attacker could retrieve and modify sensitive information without any authentication.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,MachineSense FeverWarn Raspberry Pi-based devices lack input sanitization which could allow an attacker on an adjacent network to send a message running commands or could overflow the stack.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,Successful exploitation of these vulnerabilities could allow an attacker to obtain user data from devices execute remote code on devices or gain control over devices to perform malicious actions.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,The following components of the FeverWarn ecosystem an IoT-based skin temperature scanning system are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,The cloud provider MachineSense uses for integration and deployment for multiple MachineSense devices such as the programmable logic controller (PLC) PumpSense PowerAnalyzer FeverWarn and others is insufficiently protected against unauthorized access. An attacker with access to the internal procedures could view source code secret credentials and more.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,has been assigned to this vulnerability. A CVSS v3 base score of 7.7 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,Multiple MachineSense devices have credentials unable to be changed by the user or administrator.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,has been assigned to this vulnerability. A CVSS v3 base score of 9.1 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,has been assigned to this vulnerability. A CVSS v3 base score of 8.8 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,has been assigned to this vulnerability. A CVSS v3 base score of 10.0 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,MachineSense devices use unauthenticated MQTT messaging to monitor devices and remote viewing of sensor data by users.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,has been assigned to this vulnerability. A CVSS v3 base score of 7.5 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,has been assigned to this vulnerability. A CVSS v3 base score of 8.1 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,FeverWarn and the associated cloud service were pandemic-specific products for elevated body temperature scanning discontinued by MachineSense prior to the end of the pandemic. They are no longer available and there will be no future availability or upgrades. MachineSense is not aware of any current users of FeverWarn. Users of the affected product are encouraged to
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,No known public exploitation specifically targeting these vulnerabilities has been reported to CISA at this time.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,CISA also recommends users take the following measures to protect themselves from social engineering attacks:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,CISA recommends users take defensive measures to minimize the risk of exploitation of these vulnerabilities. Specifically users should:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,for additional information.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,Vera Mens of Claroty Research reported these vulnerabilities to CISA.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-01,MachineSense FeverWarn devices are configured as Wi-Fi hosts in a way that attackers within range could connect to the device's web services and compromise the device.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,for additional information.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,SystemK has not responded to requests to work with CISA to mitigate this vulnerability. Users of affected versions of SystemK NVR products are invited to contact
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,CISA discovered a public Proof of Concept (PoC) as authored by Keniver Wang.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,has been assigned to this vulnerability. A CVSS v3.1 base score of 9.8 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,SystemK NVR 504/508/516 versions 2.3.5SK.30084998 and prior are vulnerable to a command injection vulnerability in the dynamic domain name system (DDNS) settings that could allow an attacker to execute arbitrary commands with root privileges.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,We recently updated our anonymous
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,Successful exploitation of this vulnerability could allow an attacker to execute commands with root privileges.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,The following versions of SystemK NVR a network video recorder are affected:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,SystemK NVR 504/508/516 versions 2.3.5SK.30084998 and prior are vulnerable to a command injection vulnerability in the dynamic domain name system (DDNS) settings that could allow an attacker to execute arbitrary commands with root privileges.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,has been assigned to this vulnerability. A CVSS v3.1 base score of 9.8 has been calculated; the CVSS vector string is (
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,).
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,CISA discovered a public Proof of Concept (PoC) as authored by Keniver Wang.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,SystemK has not responded to requests to work with CISA to mitigate this vulnerability. Users of affected versions of SystemK NVR products are invited to contact
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,for additional information.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,CISA recommends users take defensive measures to minimize the risk of exploitation of this vulnerability such as:
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,CISA reminds organizations to perform proper impact analysis and risk assessment prior to deploying defensive measures.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,CISA also provides a section for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,on the ICS webpage on
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,. Several CISA products detailing cyber defense best practices are available for reading and download including
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,CISA encourages organizations to implement recommended cybersecurity strategies for
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,Additional mitigation guidance and recommended practices are publicly available on the ICS webpage at
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,in the technical information paper
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,Organizations observing suspected malicious activity should follow established internal procedures and report findings to CISA for tracking and correlation against other incidents.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,No known public exploitation specifically targeting this vulnerability has been reported to CISA at this time.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,This product is provided subject to this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,and this
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,policy.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,; we’d welcome your feedback.
+https://www.cisa.gov/news-events/ics-advisories/icsa-24-025-02,The following versions of SystemK NVR a network video recorder are affected:
