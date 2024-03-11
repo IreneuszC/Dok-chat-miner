@@ -1,3 +1,6 @@
+![image](https://github.com/juliuszlosinski/Dok-chat-miner/assets/72278818/a019fd42-bcec-49d6-be97-1a5ab190a794)
+
+
 # Better Rewards Yield Better Summaries: Learning to Summarise Without References
 
 This project includes the source code accompanying the following paper:
