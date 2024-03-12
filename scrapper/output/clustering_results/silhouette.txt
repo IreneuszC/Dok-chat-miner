@@ -3,3 +3,8 @@ agglomerative-ward,2,0.03746915348002165
 agglomerative-complete,2,0.04441515036588488
 agglomerative-average,2,0.07588317735349541
 agglomerative-single,2,0.01759256212175161
+kmeans,3,0.04072418884173289
+agglomerative-ward,2,0.03746915348002165
+agglomerative-complete,2,0.04441515036588488
+agglomerative-average,2,0.07588317735349541
+agglomerative-single,2,0.01759256212175161
