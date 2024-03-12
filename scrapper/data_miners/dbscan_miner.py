@@ -58,4 +58,5 @@ class DbScanMiner:
         print('Estimated no. of clusters DBSCAN: %d' % clusters_number)
 
         clusterization_handler = ClusterizationHandler()
-        clusterization_handler.run(DBSCAN_METHOD+"/eps:"+str(eps)+"min_samples:"+str(min_samples), X, model, query_terms, vectorizer, clusters_number)
+        # clusterization_handler.run(DBSCAN_METHOD+"/eps:"+str(eps)+"min_samples:"+str(min_samples), X, model, query_terms, vectorizer, clusters_number)
+        clusterization_handler.run(DBSCAN_METHOD, X, model, query_terms, vectorizer, clusters_number, "eps=" + str(eps) + ";min_samples=" + str(min_samples))

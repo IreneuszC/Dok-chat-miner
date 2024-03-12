@@ -35,13 +35,13 @@ if __name__ == '__main__':
     query_terms = QUERY_TERMS
     clusters_number = CLUSTERS_NUMBER
 
-    if 0:
+    if 1:
         configure_logging()
         runner = CrawlerRunner()
         crawl()
         reactor.run()
 
-    if 0:
+    if 1:
         contents_cleaner = ContentsCleaner()
         contents_cleaner.clear_contents(cisa_gov_uscert_ics_advisories_content_spider.NAME,
                                         'output/' + cisa_gov_uscert_ics_advisories_content_spider.NAME + '/content.txt')
@@ -53,17 +53,17 @@ if __name__ == '__main__':
         tfid_vectorizer = TfidVectorizer()
         tfid_vectorizer.run()
 
-    if 0:
+    if 1:
         kmeans_miner = KmeansMiner()
         clusters_number = kmeans_miner.run(query_terms, clusters_number)
 
-    if 0:
+    if 1:
         dbscan_miner = DbScanMiner()
         dbscan_miner.run(query_terms)
 
     if 1:
         agglomerative_clustering_miner = AgglomerativeClusteringMiner()
-        agglomerative_clustering_miner.run(clusters_number)
+        agglomerative_clustering_miner.run(clusters_number, query_terms)
 
     if 0:
         tfid_miner = TfidMiner()

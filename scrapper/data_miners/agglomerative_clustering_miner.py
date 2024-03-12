@@ -10,7 +10,7 @@ import numpy as np
 
 
 class AgglomerativeClusteringMiner:
-    def run(self, clusters_number):
+    def run(self, clusters_number, query_terms):
         contents_loader = ContentsLoader()
         documents = contents_loader.load_contents('output/' + NAME + '/content_cleaned.txt')
         documents = [document['content'].lower()
@@ -37,4 +37,4 @@ class AgglomerativeClusteringMiner:
 
                 #plt.show()
                 clusterization_handler = ClusterizationHandler()
-                clusterization_handler.run(AGGLOMERATIVE_METHOD+'/'+method, X, model, 'query_terms', vectorizer, clusters_no)
+                clusterization_handler.run(AGGLOMERATIVE_METHOD, X, model, query_terms, vectorizer, clusters_no, method)
