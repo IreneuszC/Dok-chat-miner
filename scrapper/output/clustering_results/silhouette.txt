@@ -1,6 +1,5 @@
-kmeans,3,0.03423602311769723
-kmeans,3,0.037534043601561054
-SilhouetteResults/ward,2,0.04106834027865578
-SilhouetteResults/complete,2,0.1067482445738264
-SilhouetteResults/average,2,0.1067482445738264
-SilhouetteResults/single,2,0.06839493460540115
+kmeans,3,0.0169205615805825
+agglomerative-ward,2,0.03746915348002165
+agglomerative-complete,2,0.04441515036588488
+agglomerative-average,2,0.07588317735349541
+agglomerative-single,2,0.01759256212175161
