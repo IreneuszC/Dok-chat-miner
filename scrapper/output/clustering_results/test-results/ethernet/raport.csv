@@ -1,0 +1,13 @@
+article_file, summary_file, score_file, bert score
+icsa-24-011-04.txt, icsa-24-011-04_summary.txt, icsa-24-011-04_score.txt, 0.32739150524139404
+icsa-24-011-05.txt, icsa-24-011-05_summary.txt, icsa-24-011-05_score.txt, 0.3721194565296173
+icsa-24-011-07.txt, icsa-24-011-07_summary.txt, icsa-24-011-07_score.txt, 0.5328470468521118
+icsa-24-016-01.txt, icsa-24-016-01_summary.txt, icsa-24-016-01_score.txt, -0.7104218602180481
+icsa-24-016-02.txt, icsa-24-016-02_summary.txt, icsa-24-016-02_score.txt, 0.06515436619520187
+icsa-24-018-01.txt, icsa-24-018-01_summary.txt, icsa-24-018-01_score.txt, 0.13644132018089294
+icsa-24-023-01.txt, icsa-24-023-01_summary.txt, icsa-24-023-01_score.txt, -0.15181609988212585
+icsa-24-023-02.txt, icsa-24-023-02_summary.txt, icsa-24-023-02_score.txt, -0.1838606595993042
+icsa-24-023-03.txt, icsa-24-023-03_summary.txt, icsa-24-023-03_score.txt, 0.3642909526824951
+icsa-24-023-04.txt, icsa-24-023-04_summary.txt, icsa-24-023-04_score.txt, 0.559302806854248
+icsa-24-023-05.txt, icsa-24-023-05_summary.txt, icsa-24-023-05_score.txt, -0.17146562039852142
+icsa-24-025-02.txt, icsa-24-025-02_summary.txt, icsa-24-025-02_score.txt, 0.32115837931632996
