@@ -10,3 +10,5 @@ To achieve this goal we are using tools:
 
 **Articles, summaries, evaluation and report .csv**
 * [Results!](./scrapper/output/clustering_results)
+
+![image](https://github.com/IreneuszC/Dok-chat-miner/assets/72278818/6ebd32b0-7405-4846-9d84-18d074bc804d)
