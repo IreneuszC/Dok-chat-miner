@@ -1,23 +1,6 @@
 import evaluator as e
 import os
 
-"""
-Getting text from file.
-"""
-def get_text_from_file(path_to_file)->str:
-    file = open(path_to_file, "r+")
-    data = str(file.read())
-    file.close()
-    return data
-
-"""
-Writing text to file.
-"""
-def write_text_to_file(path_to_file, text)->None:
-    file = open(path_to_file, "w+")
-    file.write(text)
-    file.close()
-
 # 1. Creating the evaluator.
 evaluator = e.Evaluator()
 
