@@ -12,6 +12,8 @@
 **5. Evaluate summaries:** 5_evaluate_sammaries_(venv).bat
 ![image](https://github.com/juliuszlosinski/Dok-chat-miner/assets/72278818/431f3523-6f7c-473f-96fa-317aa278d6cb)
 
+![image](https://github.com/IreneuszC/Dok-chat-miner/assets/72278818/28428ecd-d74b-42c4-9167-1c17eb413143)
+
 # Better Rewards Yield Better Summaries: Learning to Summarise Without References
 
 This project includes the source code accompanying the following paper:
