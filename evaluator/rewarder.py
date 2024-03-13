@@ -7,8 +7,8 @@ import os
 def raw_bert_encoder(model, tokenizer, sent_list, stride=128, gpu=True):
     merged_text = ''
     for ss in sent_list: merged_text += ss+' '
-    tokens = tokenizer.encode(merged_text)
-    #print(len(tokens))
+    tokens = tokenizer.encode(merged_text)[:508]
+    print(f"Number of tokens: {len(tokens)}")
 
     model.eval()
     with torch.no_grad():
@@ -104,22 +104,53 @@ class Rewarder():
 
 
 if __name__ == '__main__':
+    rewarder = Rewarder(os.path.join('trained_models','sample.model'))
+    article = 'This is an example article. Article includes more information than the summary.'
+    summary = 'This is an example summary.'
+    score = rewarder(article,summary)
+    print(f"\nArticle: {article}")
+    print(f"Summary: {summary}")
+    print(f"Score: {score}")
+
     doc = 'An information campaign urging the public to "get ready for Brexit" has been launched by the government. ' \
-          'The campaign began on Sunday with the launch of a website, gov.uk/brexit.' \
-          'Billboards and social media adverts will appear in the coming days and TV adverts will air later this month.' \
-          'Michael Gove, who is in charge of no-deal plans, said the adverts encourage "shared responsibility" for preparing to leave the EU on 31 October.' \
-          'It has been reported that the campaign could cost as much as £100m as ministers seek to inform people what they might need to do, if anything, ahead of the deadline.'
-
+        'The campaign began on Sunday with the launch of a website, gov.uk/brexit.' \
+        'Billboards and social media adverts will appear in the coming days and TV adverts will air later this month.' \
+        'Michael Gove, who is in charge of no-deal plans, said the adverts encourage "shared responsibility" for preparing to leave the EU on 31 October.' \
+        'It has been reported that the campaign could cost as much as £100m as ministers seek to inform people what they might need to do, if anything, ahead of the deadline.'
     summ1 = 'Get ready for Brexit advertising campaign launches'
-    summ2 = 'Benedict Pringle, author of the politicaladvertising.co.uk blog, said that, if true, the £100m budget would ' \
-            'be roughly double what the National Lottery spends on advertising each year.'
-    summ3 = 'An image showing one of the campaign\'s billboards was issued by the Cabinet Office ahead of their rollout this week.'
-    summ4 = 'A man has died and another is in hospital following a stabbing at a Tube station.'
 
-    rewarder = Rewarder(os.path.join('trained_models','sample.model'),device='cpu')
-    reward1 = rewarder(doc,summ1)
-    reward2 = rewarder(doc,summ2)
-    reward3 = rewarder(doc,summ3)
-    reward4 = rewarder(doc,summ4)
+    score = rewarder(doc,summary)
+    print(f"\nArticle: {doc}")
+    print(f"Summary: {summary}")
+    print(f"Score: {score}")
 
-    print(reward1, reward2, reward3, reward4)
+    doc = 'An information campaign urging the public to "get ready for Brexit" has been launched by the government. ' \
+        'The campaign began on Sunday with the launch of a website, gov.uk/brexit.' \
+        'Billboards and social media adverts will appear in the coming days and TV adverts will air later this month.' \
+        'Michael Gove, who is in charge of no-deal plans, said the adverts encourage "shared responsibility" for preparing to leave the EU on 31 October.' \
+        'It has been reported that the campaign could cost as much as £100m as ministers seek to inform people what they might need to do, if anything, ahead of the deadline.'
+    summ1 = 'Get ready for Brexit advertising campaign launches'
+
+    score = rewarder(doc, doc)
+    print(f"\nArticle: {doc}")
+    print(f"Summary: {doc}")
+    print(f"Score: {score}")
+
+    doc = 'An information campaign urging the public to "get ready for Brexit" has been launched by the government. ' \
+        'The campaign began on Sunday with the launch of a website, gov.uk/brexit.' \
+        'Billboards and social media adverts will appear in the coming days and TV adverts will air later this month.' \
+        'Michael Gove, who is in charge of no-deal plans, said the adverts encourage "shared responsibility" for preparing to leave the EU on 31 October.' \
+        'It has been reported that the campaign could cost as much as £100m as ministers seek to inform people what they might need to do, if anything, ahead of the deadline.'
+    summ1 = "Nothing!"
+
+    score = rewarder(doc, summ1)
+    print(f"\nArticle: {doc}")
+    print(f"Summary: {summ1}")
+    print(f"Score: {score}")
+
+    article = 'This is an example article. Article includes more information than the summary.'
+    summary = 'This is an example summary.'
+    score = rewarder(article,summary)
+    print(f"\nArticle: {article}")
+    print(f"Summary: {summary}")
+    print(f"Score: {score}")
