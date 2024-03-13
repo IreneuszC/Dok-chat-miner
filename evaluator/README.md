@@ -1,3 +1,5 @@
+# How to run
+
 **1. Creating virtual environment (VENV):** 1_create_venv.bat
 
 **2. Cloning clic-lab repository:** 2_clone_repo_clic-lab_newsroom.bat
