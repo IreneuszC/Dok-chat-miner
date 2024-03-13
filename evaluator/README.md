@@ -1,4 +1,14 @@
-![image](https://github.com/juliuszlosinski/Dok-chat-miner/assets/72278818/a019fd42-bcec-49d6-be97-1a5ab190a794)
+**1. Creating virtual environment (VENV):** 1_create_venv.bat
+
+**2. Cloning clic-lab repository:** 2_clone_repo_clic-lab_newsroom.bat
+
+**3. Installing all necessary packages/ requirements:** 3_install_requirements_(venv).bat
+
+**4. Testing evaluator:** 4_test_evaluator_(venv).bat
+![image](https://github.com/IreneuszC/Dok-chat-miner/assets/72278818/91a06e4d-f80e-4a0c-b1c4-396a90d5f60b)
+
+**5. Evaluate summaries:** 5_evaluate_sammaries_(venv).bat
+![image](https://github.com/IreneuszC/Dok-chat-miner/assets/72278818/b61ee808-484f-4383-bfd2-38f6980c3555)
 
 
 # Better Rewards Yield Better Summaries: Learning to Summarise Without References
