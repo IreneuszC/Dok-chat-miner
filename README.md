@@ -7,3 +7,6 @@ To achieve this goal we are using tools:
 * [scrapper](./scrapper)
 * [summarizer](./summarizer)
 * [evaluator](./evaluator)
+
+**Articles, summaries, evaluation and report .csv**
+* [Results!](./scrapper/output/clustering_results)
