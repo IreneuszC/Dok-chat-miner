@@ -7,11 +7,10 @@
 **3. Installing all necessary packages/ requirements:** 3_install_requirements_(venv).bat
 
 **4. Testing evaluator:** 4_test_evaluator_(venv).bat
-![image](https://github.com/IreneuszC/Dok-chat-miner/assets/72278818/91a06e4d-f80e-4a0c-b1c4-396a90d5f60b)
+![image](https://github.com/juliuszlosinski/Dok-chat-miner/assets/72278818/b4e31ad0-1741-46c3-a4ad-5ed1e018a95f)
 
 **5. Evaluate summaries:** 5_evaluate_sammaries_(venv).bat
-![image](https://github.com/IreneuszC/Dok-chat-miner/assets/72278818/b61ee808-484f-4383-bfd2-38f6980c3555)
-
+![image](https://github.com/juliuszlosinski/Dok-chat-miner/assets/72278818/431f3523-6f7c-473f-96fa-317aa278d6cb)
 
 # Better Rewards Yield Better Summaries: Learning to Summarise Without References
 
