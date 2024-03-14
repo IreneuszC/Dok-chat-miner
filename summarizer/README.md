@@ -86,3 +86,8 @@ As the result summaries are a little bit shorter but not in every case. Comparis
 | 1425           | 529     | 478             | [dbscan-eps=1;min_samples=3/government/icsa-24-023-02.txt](../scrapper/output/clustering_results/kmeans/ethernet/icsa-24-023-02.txt) |
 | 77808          | 492     | 560             | [agglomerative-ward/network/icsa-24-046-11.txt](../scrapper/output/clustering_results/agglomerative-ward/network/icsa-24-046-11.txt) |
 | 46967          | 574     | 596             | [agglomerative-ward/ethernet/icsa-24-046-15.txt](../scrapper/output/clustering_results/agglomerative-ward/ethernet/icsa-24-046-15.txt) |
+
+
+## Costs 
+
+Summary for every group of articles for both prompts templates took **1 566 257** tokens which cost **1.68$**
