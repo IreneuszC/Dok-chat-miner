@@ -27,8 +27,9 @@ Sama sztuczna sieć neuronowa jest **wytrenowana na** **11,490 artykułach nauko
 
 **5. Evaluate summaries:** 5_evaluate_sammaries_(venv).bat
 ![image](https://github.com/juliuszlosinski/Dok-chat-miner/assets/72278818/431f3523-6f7c-473f-96fa-317aa278d6cb)
-![image](https://github.com/juliuszlosinski/Dok-chat-miner/assets/72278818/1d7c4a25-09e7-4a46-843d-cb065198a9f3)
+![image](https://github.com/juliuszlosinski/Dok-chat-miner/assets/72278818/9a1f7986-f743-4962-b4b1-9dd4c5e74ca5)
 ![image](https://github.com/juliuszlosinski/Dok-chat-miner/assets/72278818/229ff2a3-8357-41ba-922c-c814753cdec1)
+![image](https://github.com/juliuszlosinski/Dok-chat-miner/assets/72278818/ac99c003-0d40-4ff9-b3f2-24a900d9ef1d)
 
 # Better Rewards Yield Better Summaries: Learning to Summarise Without References
 
