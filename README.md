@@ -12,4 +12,4 @@ To achieve this goal we are using tools:
 * [Results!](./scrapper/output/clustering_results)
 * [Test Results, full data!](./scrapper/output/clustering_results/test-results)
 
-![image](https://github.com/IreneuszC/Dok-chat-miner/assets/72278818/6ebd32b0-7405-4846-9d84-18d074bc804d)
+![image](https://github.com/juliuszlosinski/Dok-chat-miner/assets/72278818/ac86453a-d869-4f77-8eda-aababcf63a76)
