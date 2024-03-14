@@ -1,3 +1,12 @@
+# About
+
+Created reward function that only takes the document and summary as input. Hence, once trained, it can be used to train RL-based summarisation systems without using **any** reference summaries. Reward function/ model is learned directly from human ratings on 2,500 summaries for 500 news articles from CNN/DailyMail dataset, which includes **11,490 news articles** and one reference summary for each article (1:1). 
+To encode article and summary, we use Bert ('bert-large-uncased') and model is linear sequential neural network. The main metric is cosine similarity between article and summaries.
+
+![image](https://github.com/juliuszlosinski/Dok-chat-miner/assets/72278818/81fc880e-d54a-45d0-a468-5e32d9998960)
+
+![image](https://github.com/juliuszlosinski/Dok-chat-miner/assets/72278818/45de1843-1f1d-4179-914d-2e434a198c2b)
+
 # How to run
 
 **1. Creating virtual environment (VENV):** 1_create_venv.bat
