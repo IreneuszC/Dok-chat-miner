@@ -3,6 +3,11 @@
 Created reward function that only takes the document and summary as input. Hence, once trained, it can be used to train RL-based summarisation systems without using **any** reference summaries. Reward function/ model is learned directly from human ratings on 2,500 summaries for 500 news articles from CNN/DailyMail dataset, which includes **11,490 news articles** and one reference summary for each article (1:1). 
 To encode article and summary, we use Bert ('bert-large-uncased') and model is linear sequential neural network. The main metric is cosine similarity between article and summaries.
 
+**PL:**
+
+Algorytym polega na tym, że najpierw artykuł/ dokument oraz podsumowanie są **enkodowane** (tokeny) przy użyciu metody BERT, następnie są one **przetwarzane** przez sztuczną sieć neuronową/ model, która w **wyniku** daje wartość numeryczną mierzącą/ wyrażającą **podobieństwo cosinusowe** (podsumowania do artykułu).
+Sama sztuczna sieć neuronowa jest **wytrenowana na** **11,490 artykułach naukowych** (dużo), gdzie każdy ma swoje podsumowanie oraz ocenę (wystawiona przez użytkowników). Poprzez takie wyuczenie modelu, może on dokonywać predykcji na nowych artykułach z podsumowaniami, w wyniku czego otrzymamy **miarę podobieństwa cosinusową jako wynik** (wartość numeryczna).
+
 ![image](https://github.com/juliuszlosinski/Dok-chat-miner/assets/72278818/81fc880e-d54a-45d0-a468-5e32d9998960)
 
 **Different encoders:**
