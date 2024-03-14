@@ -5,6 +5,8 @@ To encode article and summary, we use Bert ('bert-large-uncased') and model is l
 
 ![image](https://github.com/juliuszlosinski/Dok-chat-miner/assets/72278818/81fc880e-d54a-45d0-a468-5e32d9998960)
 
+**Different encoders:**
+
 ![image](https://github.com/juliuszlosinski/Dok-chat-miner/assets/72278818/45de1843-1f1d-4179-914d-2e434a198c2b)
 
 # How to run
