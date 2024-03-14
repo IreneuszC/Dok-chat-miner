@@ -26,9 +26,7 @@ class DocumentsReader:
                 continue
 
             files_without_summary = [
-                f
-                for f in files
-                if f.endswith(".txt") and not f.endswith("_summary.txt")
+                f for f in files if f.endswith(".txt") and not f.endswith("summary.txt")
             ]
 
             if files_without_summary:

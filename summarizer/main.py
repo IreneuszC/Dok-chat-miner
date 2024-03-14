@@ -54,5 +54,7 @@ for group in files_to_process:
     print(f"Generating summary for group {group_name}")
     group_consistent_summary = summarizer.summarize(group_summary)
     writer.save_to_file(
-        group_name=group_name, file_name="summary.txt", content=group_consistent_summary
+        group_name=group_name,
+        file_name="reduced_summary.txt",
+        content=group_consistent_summary,
     )
