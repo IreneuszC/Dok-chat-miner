@@ -22,8 +22,8 @@ To encode article and summary, we use Bert ('bert-large-uncased') and model is l
 
 **5. Evaluate summaries:** 5_evaluate_sammaries_(venv).bat
 ![image](https://github.com/juliuszlosinski/Dok-chat-miner/assets/72278818/431f3523-6f7c-473f-96fa-317aa278d6cb)
-
-![image](https://github.com/IreneuszC/Dok-chat-miner/assets/72278818/28428ecd-d74b-42c4-9167-1c17eb413143)
+![image](https://github.com/juliuszlosinski/Dok-chat-miner/assets/72278818/1d7c4a25-09e7-4a46-843d-cb065198a9f3)
+![image](https://github.com/juliuszlosinski/Dok-chat-miner/assets/72278818/229ff2a3-8357-41ba-922c-c814753cdec1)
 
 # Better Rewards Yield Better Summaries: Learning to Summarise Without References
 
