@@ -1,0 +1,1 @@
+Gessler GmbH recommends updating EZ2 and WebMaster to mitigate vulnerabilities, which include weak hard coded credentials and a weak hashing algorithm for user passwords. No known public exploitation has been reported, but organizations are encouraged to implement cybersecurity strategies and report any suspicious activity to CISA.

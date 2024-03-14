@@ -1,0 +1,1 @@
+Gessler GmbH recommends updating EZ2 and WebMaster to mitigate vulnerabilities, which could allow an attacker to take control of the web management of the device and extract password hashes. The vulnerabilities have been assigned CVSS scores and organizations are encouraged to implement recommended cybersecurity strategies to protect against potential exploitation.
