@@ -1,4 +1,4 @@
-article_file, summary_file, score_file, bert score
+article_file, summary_file, score_file, bert/cosine score
 icsa-24-011-04.txt, icsa-24-011-04_summary.txt, icsa-24-011-04_score.txt, 0.13235479593276978
 icsa-24-011-05.txt, icsa-24-011-05_summary.txt, icsa-24-011-05_score.txt, 0.3721194565296173
 icsa-24-011-07.txt, icsa-24-011-07_summary.txt, icsa-24-011-07_score.txt, 0.14582595229148865
