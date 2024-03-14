@@ -1,3 +1,14 @@
+# About
+
+Created reward function that only takes the document and summary as input. Hence, once trained, it can be used to train RL-based summarisation systems without using **any** reference summaries. Reward function/ model is learned directly from human ratings on 2,500 summaries for 500 news articles from CNN/DailyMail dataset, which includes **11,490 news articles** and one reference summary for each article (1:1). 
+To encode article and summary, we use Bert ('bert-large-uncased') and model is linear sequential neural network. The main metric is cosine similarity between article and summaries.
+
+![image](https://github.com/juliuszlosinski/Dok-chat-miner/assets/72278818/81fc880e-d54a-45d0-a468-5e32d9998960)
+
+**Different encoders:**
+
+![image](https://github.com/juliuszlosinski/Dok-chat-miner/assets/72278818/45de1843-1f1d-4179-914d-2e434a198c2b)
+
 # How to run
 
 **1. Creating virtual environment (VENV):** 1_create_venv.bat
@@ -11,8 +22,8 @@
 
 **5. Evaluate summaries:** 5_evaluate_sammaries_(venv).bat
 ![image](https://github.com/juliuszlosinski/Dok-chat-miner/assets/72278818/431f3523-6f7c-473f-96fa-317aa278d6cb)
-
-![image](https://github.com/IreneuszC/Dok-chat-miner/assets/72278818/28428ecd-d74b-42c4-9167-1c17eb413143)
+![image](https://github.com/juliuszlosinski/Dok-chat-miner/assets/72278818/1d7c4a25-09e7-4a46-843d-cb065198a9f3)
+![image](https://github.com/juliuszlosinski/Dok-chat-miner/assets/72278818/229ff2a3-8357-41ba-922c-c814753cdec1)
 
 # Better Rewards Yield Better Summaries: Learning to Summarise Without References
 
