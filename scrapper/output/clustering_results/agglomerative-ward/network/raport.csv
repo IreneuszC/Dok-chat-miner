@@ -1,4 +1,4 @@
-article_file, summary_file, score_file, bert score
+article_file, summary_file, score_file, bert/cosine score
 icsa-24-016-01.txt, icsa-24-016-01_summary.txt, icsa-24-016-01_score.txt, -100000000
 icsa-24-016-02.txt, icsa-24-016-02_summary.txt, icsa-24-016-02_score.txt, -100000000
 icsa-24-018-01.txt, icsa-24-018-01_summary.txt, icsa-24-018-01_score.txt, -100000000
